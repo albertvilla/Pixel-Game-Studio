@@ -1,2 +1,2 @@
-# Game-Studio
+# Pixel-Game-Studio
 In Game Development
