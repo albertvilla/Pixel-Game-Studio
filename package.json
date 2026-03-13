@@ -1,0 +1,11 @@
+{
+  "name": "pixel-games-studio",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev:space-runner": "pnpm --filter game-space-runner dev",
+    "build:space-runner": "pnpm --filter game-space-runner build",
+    "dev:backend": "pnpm --filter backend dev"
+  }
+}

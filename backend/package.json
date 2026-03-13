@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/localServer.mjs"
+  }
+
+  "name": "pixel-games-studio",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10",
+  "scripts": {
+    "dev": "pnpm --filter game-space-runner dev",
+    "build": "pnpm --filter game-space-runner build",
+    "new-game": "node scripts/create-game.mjs"
+  }
+}
